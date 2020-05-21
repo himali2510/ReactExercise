@@ -1,0 +1,38 @@
+body {
+    background: url('./background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+  }
+.Container{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+
+form{
+    margin-top:3rem;
+    color:black;
+    text-align: center;
+}
+form input[name="City"],
+form input[name="Country"]{
+    background-color:transparent;
+    color: white  ;
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+
+}
+
+input text{
+    color: white;
+}
+form input:focus{
+    background-color:transparent !important;
+    color:whitesmoke;
+    box-shadow: none !important;
+    
+}
+form input
+.container::-webkit-input-placeholder{
+    color:black !important;
+}
